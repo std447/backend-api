@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --env-file --watch -NRE server.ts"
+  },
+  "nodeModulesDir": "auto",
+  "lock": true,
+  "imports": {
+    "@oak/oak": "jsr:@oak/oak@^17.1.4",
+    "@std/fmt": "jsr:@std/fmt@^1.0.6",
+    "mongoose": "npm:mongoose@^8.13.0"
+  }
+}
